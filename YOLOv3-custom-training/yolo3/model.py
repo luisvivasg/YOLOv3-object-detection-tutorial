@@ -8,8 +8,8 @@ from tensorflow.python.keras import backend as K
 from tensorflow.python.keras.layers import Conv2D, Add, ZeroPadding2D, UpSampling2D, Concatenate, MaxPooling2D
 from tensorflow.python.keras.layers.advanced_activations import LeakyReLU
 from tensorflow.python.keras.layers.normalization import BatchNormalization
-from tensorflow.keras.models import Model
-from tensorflow.keras.regularizers import l2
+from tensorflow.python.keras.models import Model
+from tensorflow.python.keras.regularizers import l2
 
 from yolo3.utils import compose
 
